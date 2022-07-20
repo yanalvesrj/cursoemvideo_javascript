@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+      background-color: rgba(79, 135, 184, 0.712);
+        }
+       
+    </style>
+    <title>Exercício 005</title>
+</head>
+
+<body>
+    <h1>Iniciando estudos com DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo como funciona DOM em Javascript na prática!</p>
+    <div class="msg">Clique em mim!</div>
+
+    <script>
+        /*
+        var p1 = window.document.getElementsByTagName('p')[0]
+        window.document.getElementsByTagName(div)
+        */
+        /*var d = document.getElementsByClassName('msg')[0]
+        d.innerText = "Olá!"*/
+        var d = document.querySelector('div.msg') /* Maneira recomendada */
+        d.style.background = 'green'
+    </script>
+
+</html>
+<!-- DOM - Document Object Model -->
+
+<!-- Arvore DOM -->
+
+<!-- Window -->
+<!-- Sendo as janelas -->
+
+<!--Location-->
+<!-- Sendo a localização do site IP Host URL etc -->
+
+<!-- Document -->
+<!-- Atual documentação, tendo HTML com suas childs head, body-->
+
+<!-- History -->
+<!-- Histórico de acesso -->
