@@ -1,0 +1,16 @@
+Primeiro: Fazer os <inputs> (ex: <p>Número: <input type="number" name="num" id="txtn">)
+Em seguida, fazer a chamada com métododo para a function. (ex: onclick=clicar() )
+
+Lá na parte da function nomedafunction(), devemos primeiramente coletar os dados através do 
+getElementbyId ou querySelector etc e atribuí-los à uma variável. 
+ex:
+
+var ini = document.getElementbyId ('txti')
+Depois disso, podemos pensar nas mensagens propostas ou ir diretamente para a parte do laço ou das condicionais.
+
+if (){
+}else {}
+
+É importante salientar que é necessário primeiro colocar os erros na primeira condicional e depois através 
+do else colocar como o código vai se comportar. Podendo se adicionar outros elementos adaptando-se no código.
+
